@@ -167,3 +167,6 @@ CORS_ALLOWED_ORIGINS = [
 
 # Si quieres ser más permisivo al inicio (para pruebas):
 # CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    'https://wisetag-api.onrender.com',
+]
